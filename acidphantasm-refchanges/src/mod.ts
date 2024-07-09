@@ -12,6 +12,9 @@ class RefChanges implements IPostDBLoadMod
     {
         const databaseService = container.resolve<DatabaseService>("DatabaseService");
         const tables: IDatabaseTables = databaseService.getTables();
+        const refTraderID = "6617beeaa9cfa777ca915b7c";
+
+        
     }
 }
 
