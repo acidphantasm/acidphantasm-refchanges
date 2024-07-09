@@ -1,10 +1,9 @@
-/dist
-/node_modules
-/types
+*/dist
+*/node_modules
+*/types
 .buildignore
 .eslintignore
 .eslintrc.json
 build.mjs
 package-lock.json
 tsconfig.json
-replacer.coffee
