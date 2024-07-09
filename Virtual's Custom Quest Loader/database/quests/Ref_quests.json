@@ -109,13 +109,13 @@
               "_id": "668caeedbdb70c05d702f100",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 42
+                "StackObjectsCount": 26
               }
             }
           ],
           "target": "668caeedbdb70c05d702f100",
           "type": "Item",
-          "value": "42"
+          "value": "26"
         },
         {
           "findInRaid": true,
@@ -740,7 +740,7 @@
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "668caeedbdb70c05d702f141",
+          "id": "668caeedbdb70c05d702f137",
           "index": 8,
           "oneSessionOnly": false,
           "parentId": "",
@@ -769,7 +769,7 @@
                 "enemyEquipmentExclusive": [],
                 "enemyEquipmentInclusive": [],
                 "enemyHealthEffects": [],
-                "id": "668caeedbdb70c05d702f142",
+                "id": "668caeedbdb70c05d702f138",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
                 "target": "AnyPmc",
@@ -782,19 +782,19 @@
               {
                 "conditionType": "Location",
                 "dynamicLocale": false,
-                "id": "668caeedbdb70c05d702f143",
+                "id": "668caeedbdb70c05d702f139",
                 "target": [
                   "Sandbox",
                   "Sandbox_high"
                 ]
               }
             ],
-            "id": "668caeedbdb70c05d702f144"
+            "id": "668caeedbdb70c05d702f13a"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "668caeedbdb70c05d702f145",
+          "id": "668caeedbdb70c05d702f13b",
           "index": 9,
           "oneSessionOnly": false,
           "parentId": "",
@@ -837,13 +837,13 @@
       "Started": [],
       "Success": [
         {
-          "id": "668caeedbdb70c05d702f146",
+          "id": "668caeedbdb70c05d702f13c",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
-          "id": "668caeedbdb70c05d702f147",
+          "id": "668caeedbdb70c05d702f13d",
           "index": 1,
           "target": "6617beeaa9cfa777ca915b7c",
           "type": "TraderStanding",
@@ -858,13 +858,13 @@
               "_id": "668caeedbdb70c05d702f13f",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 46
+                "StackObjectsCount": 30
               }
             }
           ],
           "target": "668caeedbdb70c05d702f13f",
           "type": "Item",
-          "value": "46"
+          "value": "30"
         },
         {
           "findInRaid": true,
@@ -1579,13 +1579,13 @@
               "_id": "668caeedbdb70c05d702f179",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 46
+                "StackObjectsCount": 45
               }
             }
           ],
           "target": "668caeedbdb70c05d702f179",
           "type": "Item",
-          "value": "46"
+          "value": "45"
         },
         {
           "findInRaid": true,
@@ -1646,7 +1646,7 @@
 						"slotId": "mod_handguard"
 					}
           ],
-          "target": "668caeedbdb70c05d702f141",
+          "target": "ad53e556fa161840b02650bb",
           "type": "Item",
           "value": "1"
         }, 
@@ -2290,13 +2290,13 @@
               "_id": "668caeedbdb70c05d702f1ac",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 72
+                "StackObjectsCount": 55
               }
             }
           ],
           "target": "668caeedbdb70c05d702f1ac",
           "type": "Item",
-          "value": "72"
+          "value": "55"
         },
         {
           "findInRaid": false,
@@ -2407,7 +2407,7 @@
 						"slotId": "mod_stock"
 					}
           ],
-          "target": "668caeedbdb70c05d702f141",
+          "target": "aa1da1d92966c0c63b0e6463",
           "type": "Item",
           "value": "1"
         }, 
@@ -3051,13 +3051,13 @@
               "_id": "668caeedbdb70c05d702f1e3",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 100
+                "StackObjectsCount": 70
               }
             }
           ],
           "target": "668caeedbdb70c05d702f1e3",
           "type": "Item",
-          "value": "100"
+          "value": "70"
         },
         {
           "id": "668caeedbdb70c05d702f1e4",
