@@ -88,12 +88,14 @@
       "Started": [],
       "Success": [
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f0fd",
           "index": 0,
           "type": "Experience",
           "value": "5600"
         },
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f0fe",
           "index": 1,
           "target": "6617beeaa9cfa777ca915b7c",
@@ -101,6 +103,7 @@
           "value": "0.03"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f0ff",
           "index": 2,
@@ -118,6 +121,7 @@
           "value": "26"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f101",
           "index": 3,
@@ -219,6 +223,7 @@
           "value": "1"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f10e",
           "index": 4,
@@ -236,6 +241,7 @@
           "value": "2"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f110",
           "index": 5,
@@ -253,6 +259,7 @@
           "value": "30"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f236",
           "index": 6,
@@ -367,12 +374,14 @@
       "Started": [],
       "Success": [
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f13c",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f13d",
           "index": 1,
           "target": "6617beeaa9cfa777ca915b7c",
@@ -380,6 +389,7 @@
           "value": "0.03"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f13e",
           "index": 2,
@@ -397,6 +407,7 @@
           "value": "30"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f140",
           "index": 3,
@@ -470,6 +481,7 @@
           "value": "1"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f148",
           "index": 4,
@@ -487,6 +499,7 @@
           "value": "3"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f14a",
           "index": 5,
@@ -504,6 +517,7 @@
           "value": "120"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f238",
           "index": 6,
@@ -618,12 +632,14 @@
       "Started": [],
       "Success": [
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f176",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
+          "availableInGameEditions": [],
           "id": "668caeedbdb70c05d702f177",
           "index": 1,
           "target": "6617beeaa9cfa777ca915b7c",
@@ -631,6 +647,7 @@
           "value": "0.03"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f178",
           "index": 2,
@@ -648,6 +665,7 @@
           "value": "39"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f17a",
           "index": 3,
@@ -711,6 +729,7 @@
           "value": "1"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f17b",
           "index": 4,
@@ -728,6 +747,7 @@
           "value": "2"
         }, 
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "668caeedbdb70c05d702f17d",
           "index": 5,
@@ -745,6 +765,7 @@
           "value": "40"
         },
         {
+          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "668caeedbdb70c05d702f23a",
           "index": 6,
