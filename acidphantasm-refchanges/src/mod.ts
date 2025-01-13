@@ -21,7 +21,7 @@ class RefSPTFriendlyQuests implements IPostDBLoadMod
         const refQuestAssort = tables.traders[refTraderID].questassort;
         
         //Update assort to have quest reward
-        refQuestAssort["success"]["66c1beaefa6e5a0c120f0d08"]= "668caeedbdb70c05d702f1b6" ;
+        refQuestAssort["success"]["66c1beaefa6e5a0c120f0d08"] = "668caeedbdb70c05d702f1b6" ;
 
         questTable["66058cc1da30b620a34e6e86"] = customQuests["66058cc1da30b620a34e6e86"]; //tgh p1
         questTable["66058cc208308761cf390993"] = customQuests["66058cc208308761cf390993"]; //tgh p2
