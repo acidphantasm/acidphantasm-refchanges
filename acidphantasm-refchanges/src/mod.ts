@@ -12,12 +12,11 @@ class RefSPTFriendlyQuests implements IPostDBLoadMod
     public postDBLoad(container: DependencyContainer): void
     {
         const databaseService = container.resolve<DatabaseService>("DatabaseService");
-        const logger = container.resolve<ILogger>("WinstonLogger");
         const tables: IDatabaseTables = databaseService.getTables();
         const localeTable = tables.locales.global;
         const questTable = tables.templates.quests;
         const refTraderID = "6617beeaa9cfa777ca915b7c";
-        const refAssort = tables.traders[refTraderID].assort;
+        const refBase = tables.traders[refTraderID].base;
         const refQuestAssort = tables.traders[refTraderID].questassort;
         
         //Update assort to have quest reward
@@ -33,6 +32,9 @@ class RefSPTFriendlyQuests implements IPostDBLoadMod
             localeTable[language]["662ba78e19c86d3199ae0a93"] = "Eliminate PMCs" // tgh p2
             localeTable[language]["662ba61d3ed61b6b78187b71"] = "Eliminate PMCs" // tgh p3
         }
+
+        // Change LL4 requirements for Ref to be 1.00
+        refBase.loyaltyLevels[3].minStanding = 1.0;
     }
 }
 
