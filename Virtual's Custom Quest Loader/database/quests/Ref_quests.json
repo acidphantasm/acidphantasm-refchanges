@@ -1678,13 +1678,13 @@
               "_id": "668caeedbdb70c05d702f225",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 69
+                "StackObjectsCount": 95
               }
             }
           ],
           "target": "668caeedbdb70c05d702f225",
           "type": "Item",
-          "value": "69"
+          "value": "95"
         }, 
         {
           "availableInGameEditions": [],

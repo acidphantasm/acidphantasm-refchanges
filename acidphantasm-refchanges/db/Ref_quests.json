@@ -112,13 +112,13 @@
               "_id": "668caeedbdb70c05d702f100",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 26
+                "StackObjectsCount": 32
               }
             }
           ],
           "target": "668caeedbdb70c05d702f100",
           "type": "Item",
-          "value": "26"
+          "value": "32"
         },
         {
           "availableInGameEditions": [],
@@ -398,13 +398,13 @@
               "_id": "668caeedbdb70c05d702f13f",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 30
+                "StackObjectsCount": 36
               }
             }
           ],
           "target": "668caeedbdb70c05d702f13f",
           "type": "Item",
-          "value": "30"
+          "value": "36"
         },
         {
           "availableInGameEditions": [],
@@ -656,13 +656,13 @@
               "_id": "668caeedbdb70c05d702f179",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 39
+                "StackObjectsCount": 38
               }
             }
           ],
           "target": "668caeedbdb70c05d702f179",
           "type": "Item",
-          "value": "39"
+          "value": "38"
         },
         {
           "availableInGameEditions": [],
