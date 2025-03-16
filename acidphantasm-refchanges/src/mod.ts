@@ -3,12 +3,12 @@ import { DependencyContainer } from "tsyringe";
 import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import { DatabaseService } from "@spt/services/DatabaseService";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
-import { ILogger } from "@spt/models/spt/utils/ILogger";
-
-import customQuests from "../db/Ref_quests.json";
+import { IQuest } from "@spt/models/eft/common/tables/IQuest";
 
 class RefSPTFriendlyQuests implements IPostDBLoadMod
 {
+    private customQuestTable: Record<string, IQuest> = require("../db/Ref_quests.json")
+
     public postDBLoad(container: DependencyContainer): void
     {
         const databaseService = container.resolve<DatabaseService>("DatabaseService");
@@ -22,9 +22,9 @@ class RefSPTFriendlyQuests implements IPostDBLoadMod
         //Update assort to have quest reward
         refQuestAssort["success"]["66c1beaefa6e5a0c120f0d08"] = "668caeedbdb70c05d702f1b6" ;
 
-        questTable["66058cc1da30b620a34e6e86"] = customQuests["66058cc1da30b620a34e6e86"]; //tgh p1
-        questTable["66058cc208308761cf390993"] = customQuests["66058cc208308761cf390993"]; //tgh p2
-        questTable["66058cc5bb83da7ba474aba9"] = customQuests["66058cc5bb83da7ba474aba9"]; //tgh p3
+        questTable["66058cc1da30b620a34e6e86"] = this.customQuestTable["66058cc1da30b620a34e6e86"]; //tgh p1
+        questTable["66058cc208308761cf390993"] = this.customQuestTable["66058cc208308761cf390993"]; //tgh p2
+        questTable["66058cc5bb83da7ba474aba9"] = this.customQuestTable["66058cc5bb83da7ba474aba9"]; //tgh p3
 
         for (const language in localeTable)
         {
